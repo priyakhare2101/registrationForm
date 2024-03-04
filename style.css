@@ -1,0 +1,156 @@
+ 
+/* style.css */
+body { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  line-height:1.5; 
+  min-height: 100vh; 
+  background:#343A40  ; 
+  flex-direction: column; 
+  margin:0;
+ 
+}
+.checkboxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 7px;
+} 
+
+.main { 
+  float: left;
+  background-color: #fff; 
+  border-radius: 15px; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+  padding: 10px 15px; 
+  transition: transform 0.2s; 
+  width: 500px; 
+  text-align: center; 
+  height: 800px;
+  line-height: normal;
+
+} 
+
+h2 { 
+  color:#007bff; 
+} 
+
+label { 
+  display: block; 
+  width: 100%; 
+  margin-top: 10px; 
+  margin-bottom: 5px; 
+  text-align: left; 
+  color: #555; 
+  font-weight:600; 
+} 
+.img{
+  float: right;
+}
+
+
+#pass { 
+  color: red; 
+  font-size: 12px; 
+} 
+
+input { 
+  display: block; 
+  width: 100%; 
+  margin-bottom: 15px; 
+  padding:6px; 
+  box-sizing: border-box; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+} 
+textarea{
+  width: 100%;
+}
+select { 
+  display: block; 
+  width: 100%; 
+  margin-bottom: 15px; 
+  padding: 8px; 
+  box-sizing: border-box; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+} 
+
+button { 
+  padding:10px; 
+  
+  margin-top: 15px; 
+  margin-bottom: 15px; 
+  border: none; 
+  color: white; 
+  cursor: pointer; 
+  background-color: #007bff ; 
+  width: 70px; 
+  font-size: 16px; 
+} 
+
+.wrap { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+.form-check{
+  line-height: 1px;
+}
+.footer-color a i{
+color: white;
+}
+
+.image{
+  float: left;
+  padding:25px;
+}
+ul{
+  list-style: none;
+}
+li{
+  line-height: 2em;
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #c1269a;
+  color: white;
+}
